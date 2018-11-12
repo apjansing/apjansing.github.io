@@ -1,0 +1,41 @@
+#profiles{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#fcc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#github-profile {
+    grid-column: 1/2;
+}
+
+#fcc-profile {
+    grid-column: 2/3;
+}
+
+.profile-tile{
+    width: 200px;
+    height: auto;
+}
+
+.fcc-tile{
+    width: 300px;
+    margin: 10px;
+    height: auto;
+}
+
+.fcc-tile:hover{
+    opacity: 0.5;
+    transition: .5s ease;
+}
+
+.project-tile{
+    widows: 200px;
+}
