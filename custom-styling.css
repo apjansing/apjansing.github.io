@@ -1,28 +1,7 @@
-#profiles{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-}
-
-#fcc{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-}
-
-#github-profile {
-    grid-column: 1/2;
-}
-
-#fcc-profile {
-    grid-column: 2/3;
-}
-
 .profile-tile{
     width: 200px;
     height: auto;
+    margin: 5px;
 }
 
 .profile-tile:hover{
@@ -31,7 +10,7 @@
 }
 
 .fcc-tile{
-    width: 300px;
+    width: 200px;
     margin: 10px;
     height: auto;
 }
@@ -58,6 +37,14 @@
     -webkit-box-shadow: inset 0 0 1px #000000;
     box-shadow:         inset 0 0 1px #000000;
  }
+
+.subsection{
+    padding-top: 45%;
+}
+
+.comments{
+    min-height: 3.5em;
+}
 
 
 @media (max-width: 700px) {
