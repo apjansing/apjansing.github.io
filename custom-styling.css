@@ -60,7 +60,17 @@
  }
 
 
-@media (max-width: 650px) {
-    
+@media (max-width: 700px) {
+    .fcc-tile{
+        width: 90%;
+        min-width: 100px;
+        margin: 2px;
+        height: auto;
+    }
+
+    .profile-tile{
+        width: 150px;
+        height: auto;
+    }
 
 }
