@@ -76,7 +76,7 @@
         <h2>Military Experience</h2>
       </header>
 
-      {% for job in site.data.experience %}
+      {% for job in site.data.military_experience %}
       <div class="resume-item" itemscope itemprop="worksFor">
         <h3 class="resume-item-title" itemprop="name">{{ job.company - job.loc - job.squadron - job.unit}}</h3>
         <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.date_range[0] -
