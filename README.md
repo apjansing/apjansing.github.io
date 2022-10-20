@@ -1,6 +1,5 @@
-# My github webpage.
-I haven't worked on this a whole lot, but here is a link to get to my page.
+# Alexander Jansing
 
-[apjansing.github.io](apjansing.github.io)
+## Overview
 
-Later I plan to include links to and plain-text versions of [my resume](https://github.com/apjansing/Jansing_Alexander_Resume).
+This is the repository containing the code for my [apjansing.github.io](apjansing.github.io) website.

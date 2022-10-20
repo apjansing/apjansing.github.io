@@ -1,0 +1,217 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage{multicol} % Used for itemizing items in multiple columns
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Alexander} % Your first name
+\familyname{Jansing} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Resume}
+\address{4226 Wild Rose Lane}{Syracuse, NY 13215 USA}
+\mobile{(+1) 315-601-8991}
+\email{alexander.jansing@gmail.com}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%   EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Relevant Experience}
+
+\cventry{Aug 2021 - Present}{Data Engineer II}{TetraScience}{Remote}{}{
+\begin{itemize}
+\item Data Insights:
+    \begin{itemize}
+        \item Perform exploratory research on laboratory equipment and report findings in company Confluence to guide schema and parser design and implementation
+        \item Implement schemas and parsers to ingest data from customer laboratory experiments
+        \item Work with customers via Zendesk and Microsoft DevOps
+    \end{itemize}
+\item Data Engineering Infrastructure:
+    \begin{itemize}
+        \item Develop internal tools to accelerate deployment process and enforce coding standards via GitHub Actions
+        \item Implement superclasses to generalize schema population and validation within parsers
+    \end{itemize}
+\end{itemize}
+}
+
+\cventry{Feb 2021 - Aug 2021}{Software Engineer III}{Assured Information Security}{Rome, NY}{}{
+    \begin{itemize}
+        \item Stargate Program:
+        \begin{itemize}
+            \item Create Docker images and Kubernetes manifests
+            \item Adapt Windows-based build scripts to build in Linux environments
+        \end{itemize}
+    \end{itemize}
+    }
+    
+\cventry{Oct 2018 - Feb 2021}{Software Engineer, Implementation Specialist}{Booz Allen Hamilton}{Rome, NY}{}{
+    \begin{itemize}
+        \item VI2E / SWIFT Programs:
+        \begin{itemize}
+            \item Use Concourse, Sonarqube, Docker, Kubernetes, and Bash scripts to create CI/CD pipelines in accordance with DoD standards
+        \end{itemize}
+    \end{itemize}
+}
+
+\cventry{Oct 2018 - Feb 2021}{Software Engineer, Implementation Specialist}{Lockheed Martin}{Liverpool, NY}{}{
+    \begin{itemize}
+        \item SEWIP and Q-53 BEMA:
+        \begin{itemize}
+            \item Develop reusable analytics scripts using Matlab and Tensorflow for noise reduction and radio frequency modulation technique identification
+        \end{itemize}
+    \end{itemize}
+}
+
+\cventry{Mar 2018 - Sept 2018}{Software Engineer}{Lockheed Martin}{Liverpool, NY}{}{
+    \begin{itemize}
+        \item SEWIP and Q-53 BEMA:
+        \begin{itemize}
+            \item Develop reusable analytics scripts using Matlab and Tensorflow for noise reduction and radio frequency modulation technique identification
+        \end{itemize}
+    \end{itemize}
+}
+
+\cventry{Jan 2016 - Mar 2018}{Data Scientist, Junior}{Booz Allen Hamilton}{Rome, NY}{}{
+    \begin{itemize}
+        \item Active Insights:
+        \begin{itemize}
+            \item Design a data lake using an Apache Accumulo for data storage and OrientdDB for provenance tracking
+            \item Develop Apache Nifi workflows and processors for ETL processes
+        \end{itemize}
+    \end{itemize}
+}
+
+\cventry{Aug 2015 - Jan 2016}{Graduate Assistant}{SUNY Polytechnic}{Utica, NY}{}{
+    \begin{itemize}
+        \item Finite Mathematics:
+        \begin{itemize}
+            \item Grade homework, hold office hours, and design personal grading scheme
+        \end{itemize}
+    \end{itemize}
+}
+
+\pagebreak
+\section{Military Experience}
+
+\cventry{Apr 2012 - Apr 2018}{MQ-9 Avionics Journeyman}{New York State Air National Guard}{Syracuse, NY}{}{
+    \begin{itemize}
+        \item $\mathbf{174^{th}}$ Aircraft Maintenance Squadron:
+        \begin{itemize}
+            \item Perform scheduled maintenance and troubleshoot issues with avionics systems on the MQ-9 Reaper
+        \end{itemize}
+    \end{itemize}
+}
+
+\cventry{Oct 2009 - Apr 2012}{F-16 Avionics Journeyman}{United States Air Force}{Luke AFB, AZ}{}{
+    \begin{itemize}
+        \item $\mathbf{756^{th}}$ Aircraft Maintenance Squadron - 310 Aircraft Maintenance Unit:
+        \begin{itemize}
+            \item Perform scheduled maintenance and troubleshoot errors with avionics systems on F-16 fighter jets
+            \item Responsibilities include maintaining:
+            \begin{itemize}
+                \item Flight Controls (FLCS)
+                \item Identify Friend or Foe (IFF)
+                \item Radar Warning Receiver (RWR)
+                \item Fire-control Radar (FCR)
+                \item Joint Helmet Mounted Cueing System (JHMCS)
+                \item and others
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{Aug. 2015 - May 2019}{Master of Science in Computer Science}{SUNY Polytechnic Institute}{Utica, NY}{GPA 3.64/4.00}{
+\begin{itemize}
+    \item Dual focus in Mathematics and Software Engineering
+    \item Final Project - \href{https://github.com/apjansing/Open-House-Route-Planner}{Open House Route Planner}: A programmatic approach to finding a route to as many open houses on a given day. Inspired by a personal need when searching for a house.
+\end{itemize}
+}
+\cventry{Aug. 2012 - May 2015}{Bachelor of Science in Applied Mathematics}{SUNY Oswego}{Oswego, NY}{}{}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+
+\cvitem{Programming Languages}{\textsc{Python, Java, Bash, \LaTeX, Matlab, R, SQL, OCaml, Typescript}}
+\cvitem{Tools}{\textsc{Docker, AWS, GitHub Actions, Git, Jira, Confluence, Flutter}}
+
+\section{Interests/Hobbies}
+\vspace{-5mm}
+\cventry{}{}{}{}{}{
+\begin{itemize}
+\item Gardening
+\item Gaming
+\item Cooking
+\item Reading
+\item Hiking in the Adirondacks
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%   LANGUAGE SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Languages}
+% \cvitem{English}{\textbf{Native}}
+% \cvitem{German}{\textbf{Can Understand and get by (interDaF A2)}}
+% \cvitem{French}{\textbf{Can Understand}}
+
+%----------------------------------------------------------------------------------------
+%	EXTRA-CURRICULAR SECTION
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
