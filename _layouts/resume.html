@@ -78,11 +78,11 @@
 
       {% for job in site.data.military_experience %}
       <div class="resume-item" itemscope itemprop="worksFor">
-        <h3 class="resume-item-title" itemprop="name">{{ job.company }} &bull;{{ job.loc }} &bull;{{ job.squadron }}
-          &bull;{{ job.unit}}
-        </h3>
-        <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.date_range[0] -
-          job.date_range[1] }}</h4>
+        <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
+        <h4 class="resume-item-details" itemprop="description">{% if job.loc %} {{ job.loc }} &bull; {% endif %}{% if
+          job.squadron %} {{ job.squadron }} &bull; {% endif %}{% if job.unit %} {{ job.unit }} &bull; {% endif %}</h4>
+        <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.date_range[0] }}
+          &hyphen; {{ job.date_range[1] }}</h4>
         <p class="resume-item-copy">{{ job.summary }}</p>
       </div><!-- end of resume-item -->
       {% endfor %}
