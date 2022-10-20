@@ -1,0 +1,21 @@
+- company: New York State Air National Guard
+  squadron: $\mathbf{174^{th}}$ Aircraft Maintenance Squadron
+  position: MQ-9 Avionics Journeyman
+  loc: Syracuse, NY
+  date_range:
+    - Apr 2012
+    - Apr 2018
+  summary:
+    - Perform scheduled maintenance and troubleshoot issues with avionics systems on the MQ-9 Reaper
+
+- company: United States Air Force
+  squadron: $\mathbf{756^{th}}$ Aircraft Maintenance Squadron
+  unit: 310 Aircraft Maintenance Unit
+  position: F-16 Avionics Journeyman
+  loc: Luke AFB, AZ
+  date_range:
+    - Oct 2009
+    - Apr 2012
+  summary:
+    - Perform scheduled maintenance and troubleshoot errors with avionics systems on F-16 fighter jets
+    - "Responsibilities include maintaining: Flight Controls (FLCS), Identify Friend or Foe (IFF), Radar Warning Receiver (RWR), Fire-control Radar (FCR), Joint Helmet Mounted Cueing System (JHMCS), and others"
