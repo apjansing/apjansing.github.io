@@ -1,11 +1,17 @@
 _site
 .sass-cache
-.DS_Store
 _vendor
+
+# Mac files
 .DS_Store
+
+# LaTeX files
 jansing.aux
 jansing.fdb_latexmk
 jansing.fls
 jansing.log
 jansing.out
 jansing.synctex.gz
+
+# VSCode files
+.vscode/
