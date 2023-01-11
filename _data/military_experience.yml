@@ -1,6 +1,6 @@
 - company: New York State Air National Guard
   squadron: 174th <span style="border-bottom:1px dotted" title="Aircraft Maintenance Squadron">AMXS</span>
-  position: MQ-9 Avionics Journeyman
+  title: MQ-9 Avionics Journeyman
   loc: Syracuse, NY
   date_range:
     - April 2012
@@ -11,7 +11,7 @@
 - company: United States Air Force
   squadron: 756th <span style="border-bottom:1px dotted" title="Aircraft Maintenance Squadron">AMXS</span>
   unit: 310 <span style="border-bottom:1px dotted" title="Aircraft Maintenance Unit">AMU</span>
-  position: F-16 Avionics Journeyman
+  title: F-16 Avionics Journeyman
   loc: Luke AFB, AZ
   date_range:
     - October 2009
