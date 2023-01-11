@@ -65,7 +65,7 @@
       margin: 0 0 .5rem;
 
       @include media_larger_than_mobile {
-        float: center;
+        float: left;
         margin: 0;
       }
     }
