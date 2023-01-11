@@ -1,12 +1,12 @@
 # Degree
 - degree: Master of Science in Computer Science
+  focus: Mathematics and Software Engineering
   uni: SUNY Polytechnic Institute
   loc: Utica, NY
   date_range:
     - Aug 2015
     - May 2019
   gpa: 3.64/4.00
-  focus: Mathematics and Software Engineering
   final_project:
     source:
       url: https://github.com/apjansing/Open-House-Route-Planner
@@ -14,6 +14,7 @@
     description: A programmatic approach to finding a route to as many open houses on a given day. Inspired by a personal need when searching for a house.
 
 - degree: Bachelor of Science in Applied Mathematics
+  focus: Computer Science
   uni: SUNY Oswego
   loc: Oswego, NY
   date_range:
