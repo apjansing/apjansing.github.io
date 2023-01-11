@@ -64,9 +64,10 @@
         <p class="resume-item-copy">
         <ul>{% for position in job.positions %}
           <li> {{ position.team }}:
-            {% for summary in position.summary %}
-          <li> {{ summary }} </li>
-          {% endfor %}
+            <ul>{% for summary in position.summary %}
+              <li> {{ summary }} </li>
+              {% endfor %}
+            </ul>
           </li>
           {% endfor %}
         </ul>
