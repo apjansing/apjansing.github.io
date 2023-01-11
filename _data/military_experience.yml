@@ -1,5 +1,5 @@
 - company: New York State Air National Guard
-  squadron: 174th <span title="Aircraft Maintenance Squadron">AMXS</span>
+  squadron: 174th <span style="border-bottom:1px dotted" title="Aircraft Maintenance Squadron">AMXS</span>
   position: MQ-9 Avionics Journeyman
   loc: Syracuse, NY
   date_range:
@@ -9,8 +9,8 @@
     - Perform scheduled maintenance and troubleshoot issues with avionics systems on the MQ-9 Reaper
 
 - company: United States Air Force
-  squadron: 756th <span title="Aircraft Maintenance Squadron">AMXS</span>
-  unit: 310 Aircraft Maintenance Unit
+  squadron: 756th <span style="border-bottom:1px dotted" title="Aircraft Maintenance Squadron">AMXS</span>
+  unit: 310 <span style="border-bottom:1px dotted" title="Aircraft Maintenance Unit">AMU</span>
   position: F-16 Avionics Journeyman
   loc: Luke AFB, AZ
   date_range:
