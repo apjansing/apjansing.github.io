@@ -147,10 +147,7 @@
   }
 
   .flex-ul {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    column-width: 10rem;
   }
 
   .resume-item-title {
