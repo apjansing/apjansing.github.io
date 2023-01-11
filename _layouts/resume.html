@@ -91,9 +91,9 @@
       <div class="resume-item" itemscope itemprop="worksFor">
         <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
         <h4 class="resume-item-details" itemprop="description">
-          {{ job.loc }}
-          {{ job.squadron }}
-          {{ job.unit }}
+          {% if job.loc %} {{ job.loc }}{% endif %}
+          {% if job.squadron %} &bull; {{ job.squadron }}{% endif %}
+          {% if job.unit %} &bull; {{ job.unit }}{% endif %}
         </h4>
         <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.date_range[0] }}
           &mdash; {{ job.date_range[1] }}</h4>
@@ -125,9 +125,12 @@
           <li>{{ award.award }}</li>
           {% endfor %}
         </ul>
-
-
-        <p class="resume-item-copy">{{ education.summary }}</p>
+        <p class="resume-item-copy">
+        <ul>{% for summary in education.summary %}
+          <li> {{ summary }} </li>
+          {% endfor %}
+        </ul>
+        </p>
       </div>
       {% endfor %}
     </section>
