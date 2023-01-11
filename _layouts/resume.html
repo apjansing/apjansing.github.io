@@ -62,7 +62,13 @@
         <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.date_range[0] }}
           &mdash; {{ job.date_range[1] }}</h4>
         <p class="resume-item-copy">
-        <ul>{% for summary in job.summary %} <li> {{ summary }}</li> {% endfor %}
+        <ul>{% for position in job.positions %}
+          <li> {{ position.team }}:
+            {% for summary in position.summary %}
+          <li> {{ summary }} </li>
+          {% endfor %}
+          </li>
+          {% endfor %}
         </ul>
         </p>
       </div><!-- end of resume-item -->
