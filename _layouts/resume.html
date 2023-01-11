@@ -118,8 +118,11 @@
         <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
         <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull;
           {{education.date_range[0] }} &mdash; {{ education.date_range[1] }}</h4>
+        {% if education.focus %} <h5 class="resume-item-details final-project-title" itemprop="description"> {{
+          education.focus }} </h5>
+        {% endif %}
         {% if education.final_project %} <h5 class="resume-item-details final-project-title" itemprop="description">
-          Final Project - <a href={{ education.final_project.source.url }} itemprop="url">{{
+          Final Project: <a href={{ education.final_project.source.url }} itemprop="url">{{
             education.final_project.source.text }}</a></h5>
         <p class="resume-item-copy" itemprop="description">
         <p class="resume-item-copy">

@@ -261,6 +261,10 @@
       line-height: .7em;
       font-style: italic;
 
+      &.focus-title {
+        font-size: 12px;
+      }
+
       &.final-project-title {
         font-size: 11px;
       }
