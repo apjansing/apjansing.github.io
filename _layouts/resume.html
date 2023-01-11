@@ -118,18 +118,12 @@
         <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
         <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull;
           {{education.date_range[0] }} &mdash; {{ education.date_range[1] }}</h4>
-        <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
+        <h5 class="resume-item-details final-project-title" itemprop="description">Final Project</h5>
         <p class="resume-item-copy" itemprop="description">
-        <ul class="resume-item-list">
-          {% for award in education.awards %}
-          <li>{{ award.award }}</li>
-          {% endfor %}
-        </ul>
+        <h6><a href={{ education.final_project.source.url }} itemprop="url">{{ education.final_project.source.text
+            }}</a></h6>
         <p class="resume-item-copy">
-        <ul>{% for summary in education.summary %}
-          <li> {{ summary }} </li>
-          {% endfor %}
-        </ul>
+          {{ education.final_project.description }}
         </p>
       </div>
       {% endfor %}

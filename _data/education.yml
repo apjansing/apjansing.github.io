@@ -6,9 +6,12 @@
     - Aug 2015
     - May 2019
   gpa: 3.64/4.00
-  summary:
-    - Dual focus in Mathematics and Software Engineering
-    - Final Project - <a href="https://github.com/apjansing/Open-House-Route-Planner">Open House Route Planner</a>: A programmatic approach to finding a route to as many open houses on a given day. Inspired by a personal need when searching for a house.
+  focus: Mathematics and Software Engineering
+  final_project:
+    source:
+      url: https://github.com/apjansing/Open-House-Route-Planner
+      text: Open House Route Planner
+    description: A programmatic approach to finding a route to as many open houses on a given day. Inspired by a personal need when searching for a house.
 
 - degree: Bachelor of Science in Applied Mathematics
   uni: SUNY Oswego
