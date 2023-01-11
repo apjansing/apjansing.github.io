@@ -6,6 +6,10 @@
     - Oct, 2013
     - Present
   summary:
-    - Perform exploratory research on laboratory equipment and report findings in company Confluence to guide schema and parser design and implementation
-    - Implement schemas and parsers to ingest data from customer laboratory experiments
-    - Work with customers via Zendesk and Microsoft DevOps
+    - Data Insights
+      - Perform exploratory research on laboratory equipment and report findings in company Confluence to guide schema and parser design and implementation
+      - Implement schemas and parsers to ingest data from customer laboratory experiments
+      - Work with customers via Zendesk and Microsoft DevOps
+    - Data Engineering Infrastructure
+      - Develop internal tools to accelerate deployment process and enforce coding standards via GitHub Actions
+      - Implement superclasses to generalize schema population and validation within parsers
