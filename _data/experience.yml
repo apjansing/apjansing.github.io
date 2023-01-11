@@ -1,9 +1,9 @@
 # Jobs
 # VP of Global Communications
 - company: TetraScience
-  position: Data Engineer II
+  title: Data Engineer II
   date_range:
-    - Oct, 2013
+    - October, 2013
     - Present
   positions:
     - team: Data Insights
@@ -15,3 +15,54 @@
       summary:
         - Develop internal tools to accelerate deployment process and enforce coding standards via GitHub Actions
         - Implement superclasses to generalize schema population and validation within parsers
+
+- company: Assured Information Security
+  title: Software Engineer III
+  date_range:
+    - February, 2021
+    - August, 2021
+  positions:
+    - team: Stargate Program
+      summary:
+        - Create Docker images and Kubernetes manifests
+        - Adapt Windows-based build scripts to build in Linux environments
+
+- company: Booz Allen Hamilton
+  title: Software Engineer, Implementation Specialist
+  date_range:
+    - October, 2018
+    - February, 2021
+  positions:
+    - team: VI2E / SWIFT Programs
+      summary:
+        - Use Concourse, Sonarqube, Docker, Kubernetes, and Bash scripts to create CI/CD pipelines in accordance with DoD standards
+
+- company: Lockheed Martin
+  title: Software Engineer III
+  date_range:
+    - March, 2018
+    - October, 2018
+  positions:
+    - team: SEWIP and Q-53 BEMA
+      summary:
+        - Develop reusable analytics scripts using Matlab and Tensorflow for noise reduction and radio frequency modulation technique identification
+
+- company: Booz Allen Hamilton
+  title: Data Scientist, Junior
+  date_range:
+    - January, 2016
+    - March, 2018
+  positions:
+    - team: Active Insights
+      summary:
+        - Design a data lake using an Apache Accumulo for data storage and OrientdDB for provenance tracking
+        - Develop Apache Nifi workflows and processors for ETL processes
+
+- company: SUNY Polytechnic
+  title: Graduate Assistant
+  date_range:
+    - August, 2015
+    - January, 2016
+  positions:
+    - team: Finitie Mathematics
+      summary: Grade homework, hold office hours, and design personal grading scheme
