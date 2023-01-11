@@ -261,13 +261,17 @@
       line-height: .7em;
       font-style: italic;
 
-      &.focus-title {
-        font-size: 1px;
-      }
 
       &.final-project-title {
         font-size: 10px;
       }
+    }
+
+    &.focus-title {
+      font-size: 10px;
+      margin: 0 0 .75rem;
+      line-height: .5em;
+      font-style: italic;
     }
   }
 }
