@@ -146,6 +146,13 @@
     margin-bottom: 2rem;
   }
 
+  .flex-ul {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
   .resume-item-title {
     @include sans_bold;
     margin: 0 0 .75rem;
@@ -166,6 +173,7 @@
     &.final-project-title {
       font-size: 0.9rem;
     }
+
   }
 
   .resume-item-title,

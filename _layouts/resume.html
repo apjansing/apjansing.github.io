@@ -172,7 +172,7 @@
       {% for skills in site.data.skills %}
       <div class="resume-item">
         <h4 class="resume-item-details">{{ skills.type }}</h4>
-        <ul>
+        <ul class="flex-ul">
           {% for skill in skills.skills %}
           <li>{{ skill }}</li>
           {% endfor %}
