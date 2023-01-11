@@ -159,7 +159,11 @@
     margin: 0 0 .75rem;
     line-height: 1;
 
-    &.award-title {
+    &.focus-title {
+      font-size: 0.8rem;
+    }
+
+    &.final-project-title {
       font-size: 1rem;
     }
   }
@@ -269,8 +273,8 @@
 
     .focus-title {
       font-size: 10px;
-      margin: -0.5 0 .45rem;
-      line-height: .5em;
+      margin: 0 0 .75rem;
+      line-height: .7em;
       font-style: italic;
     }
   }
