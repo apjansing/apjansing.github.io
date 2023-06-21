@@ -6,15 +6,18 @@
     - October, 2013
     - Present
   positions:
-    - team: Data Insights
+    - team: Data Pipelines Team
       summary:
-        - Perform exploratory research on laboratory equipment and report findings in company Confluence to guide schema and parser design and implementation
-        - Implement schemas and parsers to ingest data from customer laboratory experiments
-        - Work with customers via Zendesk and Microsoft DevOps
+        - Create new and improve upon existing API services to improve data discovery and speed of the platform
     - team: Data Engineering Infrastructure
       summary:
         - Develop internal tools to accelerate deployment process and enforce coding standards via GitHub Actions
-        - Implement superclasses to generalize schema population and validation within parsers
+        - Implement packages to programmatically create, populate, and validate schemas using pydantic
+    - team: Data Insights
+      summary:
+        - Perform exploratory research on laboratory equipment. This involved finding technical documents and occasionally contacting vendors for further information
+        - Implement schemas and parsers to ingest data from customer laboratory experiments
+        - Work with customers via Zendesk and Microsoft DevOps
 
 - company: Assured Information Security
   title: Software Engineer III
@@ -35,7 +38,9 @@
   positions:
     - team: VI2E / SWIFT Programs
       summary:
-        - Use Concourse, Sonarqube, Docker, Kubernetes, and Bash scripts to create CI/CD pipelines in accordance with DoD standards
+        - Use a wide variety of tools to create and maintain CI/CD pipelines in accordance with DoD standards
+        - Create pipelines to deliver data to secured environments using AWS Diode
+        - Insure data and code were vetted as to provide the Authority of Operate in secured environments
 
 - company: Lockheed Martin
   title: Software Engineer III
