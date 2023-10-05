@@ -40,10 +40,10 @@
       summary:
         - Use a wide variety of tools to create and maintain CI/CD pipelines in accordance with DoD standards
         - Create pipelines to deliver data to secured environments using AWS Diode
-        - Ensure data and code were vetted as to provide the Authority of Operate in secured environments
+        - Ensure data and code were vetted as to provide the Authority to Operate in secured environments
 
 - company: Lockheed Martin
-  title: Software Engineer III
+  title: Software Engineer, Asc
   date_range:
     - March, 2018
     - October, 2018
