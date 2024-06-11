@@ -1,23 +1,27 @@
 # Jobs
 # VP of Global Communications
+- company: Horizon Next
+  title: Data Engineer II
+  date_range:
+    - January, 2024
+    - Present
+  positions:
+      - Create Airflow DAGs to orchestrate data pipelines
+      - Maintain Redshift and Snowflake databases
+      - Develop Airflow Operators to interact with advertisement data APIs
+      - Implement parallel processing of data methods to reduce processing time
+
 - company: TetraScience
   title: Data Engineer II
   date_range:
     - August, 2021
-    - Present
+    - August, 2023
   positions:
-    - team: Data Pipelines Team
-      summary:
-        - Create new and improve upon existing API services to improve data discovery and speed of the platform
-    - team: Data Engineering Infrastructure
-      summary:
-        - Develop internal tools to accelerate deployment process and enforce coding standards via GitHub Actions
-        - Implement packages to programmatically create, populate, and validate schemas using pydantic
-    - team: Data Insights
-      summary:
-        - Perform exploratory research on laboratory equipment. This involved finding technical documents and occasionally contacting vendors for further information
-        - Implement schemas and parsers to ingest data from customer laboratory experiments
-        - Work with customers via Zendesk and Microsoft DevOps
+    - Perform exploratory research on laboratory equipment. This involved finding technical documents and occasionally contacting vendors for further information
+    - Implement schemas and parsers to ingest data from customer laboratory experiments
+    - Develop new and improve upon existing API services to improve data discovery of the platform
+    - Implement classes to programmatically create, populate, and validate schemas using pydantic
+    - Develop tools to accelerate deployment process and enforce coding standards via GitHub Actions
 
 - company: Assured Information Security
   title: Software Engineer III
@@ -25,10 +29,8 @@
     - February, 2021
     - August, 2021
   positions:
-    - team: Stargate Program
-      summary:
-        - Create Docker images and Kubernetes manifests
-        - Adapt Windows-based build scripts to build in Linux environments
+    - Develop Docker images and Kubernetes manifests to modernize legacy applications
+    - Adapt Windows-based applications to run on Linux-based systems
 
 - company: Booz Allen Hamilton
   title: Software Engineer, Implementation Specialist
@@ -36,11 +38,9 @@
     - October, 2018
     - February, 2021
   positions:
-    - team: VI2E / SWIFT Programs
-      summary:
-        - Use a wide variety of tools to create and maintain CI/CD pipelines in accordance with DoD standards
-        - Create pipelines to deliver data to secured environments using AWS Diode
-        - Ensure data and code were vetted as to provide the Authority to Operate in secured environments
+      - Use a wide variety of tools to create and maintain CI/CD pipelines in accordance with DoD standards
+      - Create pipelines to deliver data to secured environments using AWS Diode
+      - Ensure data and code were vetted as to provide the Authority to Operate in secured environments
 
 - company: Lockheed Martin
   title: Software Engineer, Asc
@@ -48,9 +48,8 @@
     - March, 2018
     - October, 2018
   positions:
-    - team: SEWIP and Q-53 BEMA
-      summary:
-        - Develop reusable analytics scripts using Matlab and Tensorflow for noise reduction and radio frequency modulation technique identification
+    - Implement machine learning models for radio signal classification
+    - Develop reusable analytics scripts using Matlab for radio noise reduction
 
 - company: Booz Allen Hamilton
   title: Data Scientist, Junior
@@ -58,10 +57,9 @@
     - January, 2016
     - March, 2018
   positions:
-    - team: Active Insights
-      summary:
-        - Design a data lake using an Apache Accumulo for data storage and OrientdDB for provenance tracking
-        - Develop Apache Nifi workflows and processors for ETL processes
+    - Design a datalake architecture for the Air Force Research Laboratory
+    - Develop Apache Nifi workflows and processors for ETL processes
+    - Design and implement graph databases for data storage and retrieval
 
 - company: SUNY Polytechnic
   title: Graduate Assistant
