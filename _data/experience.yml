@@ -5,7 +5,7 @@
   date_range:
     - January, 2024
     - Present
-  positions:
+  summary:
       - Create Airflow DAGs to orchestrate data pipelines
       - Maintain Redshift and Snowflake databases
       - Develop Airflow Operators to interact with advertisement data APIs
@@ -16,7 +16,7 @@
   date_range:
     - August, 2021
     - August, 2023
-  positions:
+  summary:
     - Perform exploratory research on laboratory equipment. This involved finding technical documents and occasionally contacting vendors for further information
     - Implement schemas and parsers to ingest data from customer laboratory experiments
     - Develop new and improve upon existing API services to improve data discovery of the platform
@@ -28,7 +28,7 @@
   date_range:
     - February, 2021
     - August, 2021
-  positions:
+  summary:
     - Develop Docker images and Kubernetes manifests to modernize legacy applications
     - Adapt Windows-based applications to run on Linux-based systems
 
@@ -37,7 +37,7 @@
   date_range:
     - October, 2018
     - February, 2021
-  positions:
+  summary:
       - Use a wide variety of tools to create and maintain CI/CD pipelines in accordance with DoD standards
       - Create pipelines to deliver data to secured environments using AWS Diode
       - Ensure data and code were vetted as to provide the Authority to Operate in secured environments
@@ -47,7 +47,7 @@
   date_range:
     - March, 2018
     - October, 2018
-  positions:
+  summary:
     - Implement machine learning models for radio signal classification
     - Develop reusable analytics scripts using Matlab for radio noise reduction
 
@@ -56,7 +56,7 @@
   date_range:
     - January, 2016
     - March, 2018
-  positions:
+  summary:
     - Design a datalake architecture for the Air Force Research Laboratory
     - Develop Apache Nifi workflows and processors for ETL processes
     - Design and implement graph databases for data storage and retrieval
@@ -66,6 +66,5 @@
   date_range:
     - August, 2015
     - January, 2016
-  positions:
-    - team: Finitie Mathematics
-      summary: Grade homework, hold office hours, and design personal grading scheme
+  summary:
+    - Grade homework, hold office hours, and design personal grading scheme
