@@ -6,12 +6,12 @@ _vendor
 .DS_Store
 
 # LaTeX files
-jansing.aux
-jansing.fdb_latexmk
-jansing.fls
-jansing.log
-jansing.out
-jansing.synctex.gz
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
 
 # VSCode files
 .vscode/
